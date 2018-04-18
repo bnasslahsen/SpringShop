@@ -12,8 +12,7 @@
 	<bean
 		class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
 
-	<!-- <context:property-placeholder location="classpath:sgbd.properties" 
-		/> -->
+	<context:property-placeholder location="classpath:sgbd.properties" />
 
 	<!-- <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"> -->
 	<!-- <property name="driverClassName" value="${db.driver}" /> -->

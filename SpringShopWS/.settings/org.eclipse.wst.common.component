@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SpringShopWS">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="SpringShopServiceImpl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SpringShopServiceImpl/SpringShopServiceImpl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SpringShopService-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SpringShopService/SpringShopService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SpringShopDAOImpl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SpringShopDAOImpl/SpringShopDAOImpl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SpringShopDAO-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SpringShopDAO/SpringShopDAO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SpringShopWS"/>
+        <property name="java-output-path" value="/SpringShopWS/target/classes"/>
+    </wb-module>
+</project-modules>
